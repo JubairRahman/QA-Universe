@@ -1,141 +1,139 @@
-# 🚀 QA-Universe — The QA Benchmark Repository
+# 🚀 QA-Universe — The Open-Source QA Learning Benchmark
 
-[![Roadmap - 30 Days](https://img.shields.io/badge/Roadmap-30%20Days-blue?style=for-the-badge\&logo=readthedocs)](Roadmap.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE) [![Open for contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)](#contributing)
+[![Roadmap - 30 Days](https://img.shields.io/badge/Roadmap-30%20Days-blue?style=for-the-badge&logo=readthedocs)](Roadmap.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![Open for contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/Jubairrahman/QA-Universe?style=for-the-badge\&logo=github)](https://github.com/Jubairrahman/QA-Universe/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Jubairrahman/QA-Universe?style=for-the-badge)](https://github.com/Jubairrahman/QA-Universe/network/members) [![GitHub issues](https://img.shields.io/github/issues/Jubairrahman/QA-Universe?style=for-the-badge)](https://github.com/Jubairrahman/QA-Universe/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Jubairrahman/QA-Universe?style=for-the-badge&logo=github)](https://github.com/Jubairrahman/QA-Universe/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Jubairrahman/QA-Universe?style=for-the-badge)](https://github.com/Jubairrahman/QA-Universe/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Jubairrahman/QA-Universe?style=for-the-badge)](https://github.com/Jubairrahman/QA-Universe/issues)
 
-> **QA-Universe** is an opinionated, community-maintained repository designed to be a single, open, and free benchmark for learning and practicing Software Quality Assurance — from basics to advanced. It includes curated **books & PDFs**, **guided projects**, **test artifacts**, **automation examples**, **API collections**, and **interview prep** material.
-
----
-
-## ✨ Why QA-Universe
-
-* Centralized, free, and up-to-date learning resources for all QA levels (beginner → senior).
-* Hands-on projects that produce **real deliverables** (test plans, test cases, bug reports, Postman collections, automation scripts).
-* Community-first: easy to fork, contribute, and reuse for hiring portfolios.
-* Designed to be a benchmark repository used by hiring managers, educators, and learners.
+> **QA-Universe** is an opinionated, community-maintained repository designed to be a single, open, and **free benchmark** for learning and practicing Software Quality Assurance — from basics (Manual Testing) to advanced (Automation & Performance). It provides **curated books & PDFs**, **hands-on projects**, and **career prep** materials.
 
 ---
 
-## 🔑 Key Features
+## ✨ Why QA-Universe?
 
-* ✅ **30-Day Guided Roadmap** (Roadmap.md)
-* ✅ **Curated Books & PDFs** (Books_PDFs/)
-* ✅ **Practice Projects**: Manual, API, Automation (Projects/)
-* ✅ **Postman Collections & API Playgrounds** (Week-3_API-Testing/)
-* ✅ **CI/CD Examples** (GitHub Actions / Jenkinsfile)
-* ✅ **Interview Prep & ISTQB Samples** (Interview_Preparation/)
-* ✅ **Contribution-friendly templates** (PR, ISSUE, CODE_OF_CONDUCT, CONTRIBUTING)
+This is more than just a list of links. It's a structured path designed to transform theory into tangible, high-quality work artifacts that can be used in your portfolio.
+
+- **Centralized & Free:** All resources, guides, and practice materials are consolidated and free for everyone.
+- **Portfolio-Ready Deliverables:** Focus on hands-on projects that produce **real deliverables** (test plans, bug reports, automation scripts) ready to show hiring managers.
+- **Structured Learning Path:** A clear **30-Day Guided Roadmap** (`Roadmap.md`) to take you from a beginner to a job-ready QA professional.
+- **Community-Powered:** Easy to fork, contribute, and reuse for personal learning or educational purposes.
 
 ---
 
-## 🗂 Repository Structure (short)
+## 📚 Core Learning Modules
+
+The **Roadmap** guides you through these core skills. All tutorials are located in the `Tutorials/` folder.
+
+| Topic                         | Focus                                     | File Path                          |
+| :---------------------------- | :---------------------------------------- | :--------------------------------- |
+| **Manual Testing**            | Fundamentals, Test Case Design            | `Tutorials/Manual_Testing.md`      |
+| **API Testing**               | Postman & REST API concepts               | `Tutorials/API_Testing_Postman.md` |
+| **Web Automation (Basic)**    | Get started with Cypress                  | `Tutorials/Cypress_Guide.md`       |
+| **Web Automation (Advanced)** | Deep dive into Selenium WebDriver         | `Tutorials/Selenium_Guide.md`      |
+| **CI/CD Integration**         | Connecting tests to the delivery pipeline | `Tutorials/CI-CD_Guide.md`         |
+
+<br>
+
+### 🛠️ Optional Advanced Topics
+
+Expand your expertise with these specialized guides:
+
+- :gear: **Performance Testing:** Load testing basics with JMeter (`Performance_Testing_JMeter.md`)
+- :closed_lock_with_key: **Security Testing:** Fundamentals and common vulnerabilities (`Security_Testing_Basics.md`)
+- :mobile_phone: **Mobile Testing:** Key concepts for Android/iOS apps (`Mobile_Testing_Guide.md`)
+- :lady_beetle: **Bug Reporting:** Standardized templates and best practices (`Bug_Reporting_Templates.md`)
+- :repeat: **Agile QA:** Understanding the QA process in Scrum/Agile teams (`Agile_QA_Process.md`)
+
+---
+
+## 🗂 Full Repository Structure
+
+The full directory layout is designed to be intuitive for learning and contribution:
 
 ```
 QA-Universe/
 ├── 📜 README.md
 ├── 📅 Roadmap.md
-├── 📖 Books_PDFs/                  # Free QA books, PDFs, guides (e.g., Foundations_of_Testing.pdf)
-├── 📂 Tutorials/                   # Guides, cheat sheets, notes (e.g. Manual,API_Testing_Postman.md, Selenium_Guide.md)
+|
+├── 📖 Books_PDFs/                  # Free QA books, PDFs, and official guides (e.g., Foundations_of_Testing.pdf)
+|
+├── 📂 Tutorials/                   # Main learning materials and guides (Manual, API, Selenium, Cypress, etc.)
+|   ├── Manual_Testing.md
+|   ├── API_Testing_Postman.md
+|   ├── ... (including all Optional Advanced Topics)
+|
 ├── 📂 Projects/                    # Hands-on practice with Manual, API, and Automation examples
-├── 📂 Practice_Sites/              # Demo apps & APIs for learners (e.g., SauceDemo.md, DummyJSON_API.md)
+├── 📂 Practice_Sites/              # Demo applications & APIs for learners (e.g., SauceDemo.md, DummyJSON_API.md)
 ├── 📂 Interview_Preparation/       # Career prep materials (e.g., QA_Interview_Questions.md)
 ├── 📂 Resources/                   # General resources (e.g., Useful_Links.md, Tools_List.md)
-└── 📂 Contributions/               # For community contributions
+└── 📂 Contributions/               # Templates and guides for community contributions (e.g., CONTRIBUTING.md)
+
 ```
 
-> Full, expanded structure and starter files are available in the `starter/` folder.
+## ⚡ Quick Start & How to Use
 
----
+The fastest way to begin is by getting a local copy of this repository.
 
-## ⚡ Quick Start
+1.  **Fork the Repository**
 
-1. **Fork** this repo to your GitHub account.
-2. **Clone** it locally:
+    - Click the **'Fork'** button at the top-right corner of the main GitHub page. This creates a personal copy of the entire QA-Universe repository under your GitHub account (`your-username/QA-Universe`). This is crucial if you plan to save your project work and submit contributions later.
 
-```bash
-git clone https://github.com/Jubairrahman/QA-Universe.git
-cd QA-Universe
-```
+2.  **Clone the Repository**
 
-3. Explore these files first:
+    - Navigate to your newly forked repository on GitHub.
+    - Click the **'Code'** button and copy the HTTPS or SSH clone URL.
+    - Open your terminal or command prompt and run the following command to download the repository to your local machine:
 
-* `Roadmap.md` — 30-day learning path
-* `Books_PDFs/` — curated free books & guides
-* `Projects/Manual_Testing/` — starter test plan & test cases
-* `Week-3_API-Testing/Postman_Collections/` — example Postman collections
-
-4. Start contributing (see below).
-
----
-
-## 🧭 How to Use This Repo
-
-* **Learners**: Follow `Roadmap.md`, complete weekly tasks, upload your work to `Final_Projects/` and create a PR.
-* **Mentors**: Review PRs, add suggestions, and curate high-quality contributions to the `Showcase/` folder.
-* **Hiring Managers**: Use `Final_Projects/` artifacts as evidence of candidate practical skills.
+    ```bash
+    # Replace 'Jubairrahman' with your actual GitHub username if you forked it
+    git clone https://github.com/Jubairrahman/QA-Universe.git
+    cd QA-Universe
+    ```
 
 ---
 
 ## 🤝 Contributing
 
-Thanks for thinking about contributing — this repo is community-powered. A short guide:
+We welcome all contributions! Whether it's fixing a typo, adding a new tutorial, or reviewing a pull request, your help makes this a better resource.
 
-1. Fork the repo and create a branch (`feature/<your-feature>`).
-2. Add meaningful content (ensure PDFs are *free-to-distribute* or include links instead of uploads).
-3. Include metadata: author name, date, short description.
-4. Create a clear PR describing what you added and why.
+1.  **Read the Guide:** Please review the full contribution guidelines in **`CONTRIBUTING.md`**.
+2.  **Fork & Branch:** Create a branch (`feature/add-jmeter-guide`).
+3.  **Add Content:** Ensure new content is high-quality and respects licenses (use links for copyrighted PDFs instead of uploading them).
+4.  **Create a PR:** Clearly describe your changes.
 
-**PR Checklist**
+**A good PR should:**
 
-* [ ] Content follows `Templates/` (TestPlan.md, BugReport.md, etc.)
-* [ ] No copyrighted material without permission (use links if unsure)
-* [ ] Add tests or sample outputs when relevant (e.g., automation logs)
-
-*Read the full contributing guide: `CONTRIBUTING.md`*
+- [ ] Follow the style of existing documents (e.g., Markdown structure).
+- [ ] Include a brief description of the content's source or author.
+- [ ] Reference an existing issue if applicable.
 
 ---
 
-## 🛡️ Code of Conduct
+## 🧑‍💻 Maintainer & Contact
 
-This project follows a Contributor Covenant-style Code of Conduct. Please be kind and respectful. See `CODE_OF_CONDUCT.md` for details.
+- **Maintainer:** **Jubair Rahman**
 
----
+  - **GitHub:** [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/JubairRahman)
+  - **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jubair-rahman/)
+  - **Contact:** [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/8801645763353)
 
-## 📚 Roadmap & Learning Path
-
-Start with `Roadmap.md` for the 30-day learning plan and weekly exercises. The roadmap ties directly to folders under `Week-*` so learners can upload artifacts directly into the right place.
+- **About the Maintainer:** Software Engineer (QA) in HealthTech, passionate about testing, tools, and UI quality.
 
 ---
 
 ## 📜 License
 
-This repository uses the **MIT License** — see `LICENSE` for details.
-
----
-
-## 👥 Maintainers & Contact
-
-* Maintainer: **Jubair Rahman** — replace this with the maintainer username.
-* Website / Contact: replace with your preferred contact method.
-
-If you want me to add your GitHub profile and social links here, tell me the handle, and I will update the README.
+This repository is licensed under the **MIT License**. See **`LICENSE`** for full details.
 
 ---
 
 ## 🙏 Acknowledgements
 
-Thanks to the open-source QA and testing communities (Test Automation University, Ministry of Testing, SoftwareTestingHelp, and many contributors) for inspiration and resources.
+Thanks to the open-source QA and testing communities (Test Automation University, Ministry of Testing, and all contributors) for inspiration and resources that empower learners worldwide.
 
 ---
 
 <sub>Made with ❤️ for the QA community — fork, learn, and share.</sub>
-
-##  About the QA
-
-# Jubair Rahman
-
-**Software Engineer (QA) | HealthTech | Passionate about testing, tools, and UI quality.**
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jubair-rahman/) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JubairRahman) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801645763353)
-
