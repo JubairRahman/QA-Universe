@@ -57,14 +57,11 @@ The full directory layout is designed to be intuitive for learning and contribut
 QA-Universe/
 ├── 📜 README.md
 ├── 📅 Roadmap.md
-|
 ├── 📖 Books_PDFs/                  # Free QA books, PDFs, and official guides (e.g., Foundations_of_Testing.pdf)
-|
 ├── 📂 Tutorials/                   # Main learning materials and guides (Manual, API, Selenium, Cypress, etc.)
 |   ├── Manual_Testing.md
 |   ├── API_Testing_Postman.md
 |   ├── ... (including all Optional Advanced Topics)
-|
 ├── 📂 Projects/                    # Hands-on practice with Manual, API, and Automation examples
 ├── 📂 Practice_Sites/              # Demo applications & APIs for learners (e.g., SauceDemo.md, DummyJSON_API.md)
 ├── 📂 Interview_Preparation/       # Career prep materials (e.g., QA_Interview_Questions.md)
