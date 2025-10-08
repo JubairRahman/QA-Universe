@@ -95,6 +95,19 @@ The fastest way to begin is by getting a local copy of this repository.
 
 ---
 
+### Core Contributors
+
+<a href="https://github.com/muksudulislam" target="_blank">
+<img src="https://github.com/muksudulislam.png?size=100"
+alt="Muksudul Islam's GitHub Profile"
+width="100"
+height="100"
+style="border-radius: 50%; border: 3px solid #00aaff; margin: 10px;"
+/>
+</a>
+
+<!-- Add more core contributors below this line -->
+
 ## 🤝 Contributing
 
 We welcome all contributions! Whether it's fixing a typo, adding a new tutorial, or reviewing a pull request, your help makes this a better resource.
